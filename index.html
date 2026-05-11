@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2026 Mezuniyet Çalışmaları Öğrenci Kongresi</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+
+        body{
+            font-family: 'Poppins', sans-serif;
+            background:#f5f7fb;
+            color:#333;
+        }
+
+        .hero{
+            background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+            url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1800&auto=format&fit=crop');
+            background-size: cover;
+            background-position:center;
+            color:white;
+            padding:120px 0;
+        }
+
+        .hero h1{
+            font-size:3rem;
+            font-weight:700;
+        }
+
+        .hero p{
+            font-size:1.1rem;
+            opacity:.9;
+        }
+
+        .section-title{
+            font-weight:700;
+            color:#0d6efd;
+            margin-bottom:25px;
+            position:relative;
+        }
+
+        .section-title::after{
+            content:'';
+            width:80px;
+            height:4px;
+            background:#0d6efd;
+            position:absolute;
+            left:0;
+            bottom:-10px;
+            border-radius:10px;
+        }
+
+        .card-custom{
+            border:none;
+            border-radius:18px;
+            box-shadow:0 4px 20px rgba(0,0,0,.08);
+        }
+
+        .info-box{
+            background:white;
+            border-radius:15px;
+            padding:25px;
+            height:100%;
+            box-shadow:0 2px 12px rgba(0,0,0,.06);
+        }
+
+        .session-card{
+            border-left:5px solid #0d6efd;
+            transition:.3s;
+        }
+
+        .session-card:hover{
+            transform:translateY(-4px);
+        }
+
+        .table thead{
+            background:#0d6efd;
+            color:white;
+        }
+
+        footer{
+            background:#0d1b2a;
+            color:white;
+            padding:40px 0;
+        }
+
+        .badge-custom{
+            background:#0d6efd;
+            padding:8px 15px;
+            font-size:.9rem;
+            border-radius:30px;
+        }
+
+        .timeline{
+            border-left:4px solid #0d6efd;
+            padding-left:20px;
+        }
+
+        .timeline-item{
+            margin-bottom:25px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero text-center">
+    <div class="container">
+        <span class="badge bg-primary px-4 py-2 mb-3 fs-6">
+            21 Mayıs 2026 • Kahramanmaraş / Türkiye
+        </span>
+
+        <h1>2026 Mezuniyet Çalışmaları Öğrenci Kongresi</h1>
+
+        <p class="mt-4">
+            KSÜ Ziraat Fakültesi Biyosistem Mühendisliği Bölümü tarafından düzenlenmektedir.
+        </p>
+
+        <div class="mt-4">
+            <a href="#program" class="btn btn-primary btn-lg px-4">
+                Kongre Programı
+            </a>
+
+            <a href="#kurullar" class="btn btn-outline-light btn-lg px-4 ms-2">
+                Kurullar
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- HAKKINDA -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-8">
+                <div class="card card-custom p-4 h-100">
+                    <h2 class="section-title">Kongre Hakkında</h2>
+
+                    <p>
+                        Kahramanmaraş Sütçü İmam Üniversitesi Ziraat Fakültesi
+                        Biyosistem Mühendisliği Bölümü tarafından düzenlenen
+                        <strong>2026 Mezuniyet Çalışmaları Öğrenci Kongresi</strong>,
+                        öğrencilerin bilimsel çalışmalarını akademik ortamda sunmalarını
+                        amaçlamaktadır.
+                    </p>
+
+                    <p>
+                        Kongrede; sulama yönetimi, sürdürülebilir su teknolojileri,
+                        hassas tarım, akıllı tarım sistemleri, tarımsal mekanizasyon,
+                        enerji sistemleri ve kontrollü ortam tarımı gibi güncel konular ele alınacaktır.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="info-box">
+                    <h4 class="mb-4 text-primary">
+                        <i class="bi bi-info-circle-fill"></i>
+                        Kongre Bilgileri
+                    </h4>
+
+                    <p><strong>Tarih:</strong> 21 Mayıs 2026</p>
+                    <p><strong>Yer:</strong> KSÜ Ziraat Fakültesi</p>
+                    <p><strong>Salon:</strong> Prof. Dr. Lale-Ercan Efe Konferans Salonu</p>
+                    <p><strong>Şehir:</strong> Kahramanmaraş / Türkiye</p>
+                    <p><strong>Dil:</strong> Türkçe</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- KURULLAR -->
+<section class="py-5 bg-white" id="kurullar">
+    <div class="container">
+
+        <h2 class="section-title mb-5">Kongre Kurulları</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+                <div class="card card-custom p-4 h-100">
+
+                    <h4 class="text-primary mb-4">
+                        <i class="bi bi-people-fill"></i>
+                        Düzenleme Kurulu
+                    </h4>
+
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            Prof. Dr. Hasan DEĞİRMENCİ
+                        </li>
+
+                        <li class="list-group-item">
+                            Prof. Dr. Servet TEKİN
+                        </li>
+
+                        <li class="list-group-item">
+                            Doç. Dr. Ali ÇAYLI
+                        </li>
+
+                        <li class="list-group-item">
+                            Doç. Dr. Hayrettin KARADÖL
+                        </li>
+
+                        <li class="list-group-item">
+                            Doç. Dr. Serdar ÜÇOK
+                        </li>
+
+                        <li class="list-group-item">
+                            Arş. Gör. Hüsne GÖK OLGAÇ
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card card-custom p-4 h-100">
+
+                    <h4 class="text-primary mb-4">
+                        <i class="bi bi-award-fill"></i>
+                        Bilim Kurulu
+                    </h4>
+
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">Prof. Dr. Hasan DEĞİRMENCİ</li>
+                        <li class="list-group-item">Prof. Dr. Cafer GENÇOĞLAN</li>
+                        <li class="list-group-item">Prof. Dr. Adil AKYÜZ</li>
+                        <li class="list-group-item">Prof. Dr. Ali AYBEK</li>
+                        <li class="list-group-item">Prof. Dr. Çağatay TANRIVERDİ</li>
+                        <li class="list-group-item">Prof. Dr. Serpil GENÇOĞLAN</li>
+                        <li class="list-group-item">Prof. Dr. Servet TEKİN</li>
+                        <li class="list-group-item">Doç. Dr. Sertan SESVEREN</li>
+                        <li class="list-group-item">Doç. Dr. Ali ÇAYLI</li>
+                        <li class="list-group-item">Doç. Dr. Hayrettin KARADÖL</li>
+                        <li class="list-group-item">Doç. Dr. Serdar ÜÇOK</li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- PROGRAM -->
+<section class="py-5" id="program">
+
+    <div class="container">
+
+        <h2 class="section-title mb-5">Kongre Programı</h2>
+
+        <!-- Açılış -->
+        <div class="card card-custom p-4 mb-4">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+                <div>
+                    <h4 class="text-primary">
+                        <i class="bi bi-mic-fill"></i>
+                        Açılış Programı
+                    </h4>
+
+                    <p class="mb-0">
+                        21 Mayıs 2026 • 08:30 – 09:00
+                    </p>
+                </div>
+
+                <span class="badge-custom text-white">
+                    Açılış Konuşması
+                </span>
+
+            </div>
+
+            <hr>
+
+            <p class="mb-0">
+                Prof. Dr. Hasan DEĞİRMENCİ
+            </p>
+
+        </div>
+
+        <!-- OTURUM 1 -->
+        <div class="card card-custom session-card p-4 mb-4">
+
+            <h4 class="text-primary">
+                1. Oturum — Sulama Yönetimi ve Su Kaynakları
+            </h4>
+
+            <p>
+                <strong>Oturum Başkanı:</strong>
+                Prof. Dr. Çağatay TANRIVERDİ
+            </p>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered align-middle">
+
+                    <thead>
+                        <tr>
+                            <th>Saat</th>
+                            <th>Sunum</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>09:05 – 09:15</td>
+                            <td>
+                                Yasemin ÖZANLAĞAN <br>
+                                <small>
+                                    Sulama Birlikleri: Kahramanmaraş Sulama Birlikleri Örneği
+                                </small>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>09:20 – 09:30</td>
+                            <td>
+                                Hayrunnisa FIRTINA <br>
+                                <small>
+                                    Bireysel Sulama Sistemlerinin Desteklenmesi
+                                </small>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>09:35 – 09:45</td>
+                            <td>
+                                Merve Servet ÖZDEMİR <br>
+                                <small>
+                                    Referans Evapotranspirasyon Hesaplamaları
+                                </small>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- OTURUM 2 -->
+        <div class="card card-custom session-card p-4 mb-4">
+
+            <h4 class="text-primary">
+                2. Oturum — Sürdürülebilir Su Yönetimi
+            </h4>
+
+            <p>
+                <strong>Oturum Başkanı:</strong>
+                Prof. Dr. Cafer GENÇOĞLAN
+            </p>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <strong>10:00 – 10:10</strong><br>
+                    Tarımsal Üretimde Sürdürülebilir Su Yönetimi
+                </div>
+
+                <div class="timeline-item">
+                    <strong>10:15 – 10:25</strong><br>
+                    Atmosferik Su Hasadı ve Tarımda Kullanımı
+                </div>
+
+                <div class="timeline-item">
+                    <strong>10:30 – 10:40</strong><br>
+                    Yağmur Suyu Hasadı ile Domates Su Gereksinimi
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- OTURUM 3 -->
+        <div class="card card-custom session-card p-4 mb-4">
+
+            <h4 class="text-primary">
+                3. Oturum — Tarımsal Mekanizasyon
+            </h4>
+
+            <p>
+                <strong>Oturum Başkanı:</strong>
+                Prof. Dr. Adil AKYÜZ
+            </p>
+
+            <p>
+                Çiftçilerin sulama pompası seçimlerini etkileyen faktörlerin belirlenmesi üzerine öğrenci sunumları gerçekleştirilecektir.
+            </p>
+
+        </div>
+
+        <!-- OTURUM 4 -->
+        <div class="card card-custom session-card p-4 mb-4">
+
+            <h4 class="text-primary">
+                4. Oturum — Akıllı Tarım ve Hassas Tarım Teknolojileri
+            </h4>
+
+            <p>
+                <strong>Oturum Başkanı:</strong>
+                Prof. Dr. Hasan DEĞİRMENCİ
+            </p>
+
+            <ul>
+
+                <li>Arduino Tabanlı Akıllı Kuluçka Makinesi</li>
+                <li>İHA Tabanlı Uzaktan Algılama Yaklaşımları</li>
+                <li>Dronelar ile Gübreleme Yönetimi</li>
+                <li>Bitki Hastalıklarının Drone ile Tespiti</li>
+
+            </ul>
+
+        </div>
+
+        <!-- OTURUM 5 -->
+        <div class="card card-custom session-card p-4 mb-4">
+
+            <h4 class="text-primary">
+                5. Oturum — Kontrollü Ortam Tarımı ve Enerji
+            </h4>
+
+            <p>
+                <strong>Oturum Başkanı:</strong>
+                Prof. Dr. Ali AYBEK
+            </p>
+
+            <ul>
+
+                <li>Sera Isı Gereksinimi Analizleri</li>
+                <li>Hidroponik Sistemler</li>
+                <li>Yenilenebilir Enerji Kaynakları</li>
+                <li>Süt Sığırı İşletmesi Projelendirmesi</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SUNUM REHBERİ -->
+<section class="py-5 bg-white">
+
+    <div class="container">
+
+        <h2 class="section-title mb-5">Sunum Rehberi</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+
+                <div class="card card-custom p-4 h-100">
+
+                    <h4 class="text-primary mb-4">
+                        <i class="bi bi-easel-fill"></i>
+                        Sunum Kuralları
+                    </h4>
+
+                    <ul>
+
+                        <li>Sunum süresi 10 dakikadır.</li>
+                        <li>5 dakika soru-cevap süresi bulunmaktadır.</li>
+                        <li>Sunumlar PPT/PPTX formatında hazırlanmalıdır.</li>
+                        <li>Slayt yazıları minimum 20 punto olmalıdır.</li>
+                        <li>Grafik ve görseller kullanılmalıdır.</li>
+                        <li>Sunum sırasında açıklayıcı anlatım yapılmalıdır.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="card card-custom p-4 h-100">
+
+                    <h4 class="text-primary mb-4">
+                        <i class="bi bi-bar-chart-fill"></i>
+                        Değerlendirme
+                    </h4>
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <td>Bilimsel İçerik</td>
+                               
+                            </tr>
+
+                            <tr>
+                                <td>Metodoloji</td>
+                                
+                            </tr>
+
+                            <tr>
+                                <td>Sunum Becerisi</td>
+                               
+                            </tr>
+
+                            <tr>
+                                <td>Zaman Yönetimi</td>
+                                
+                            </tr>
+
+                            <tr>
+                                <th>Toplam</th>
+                                
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container text-center">
+
+        <h4>
+            2026 Mezuniyet Çalışmaları Öğrenci Kongresi
+        </h4>
+
+        <p class="mb-1">
+            KSÜ Ziraat Fakültesi Biyosistem Mühendisliği Bölümü
+        </p>
+
+        <p class="mb-1">
+            Kahramanmaraş / Türkiye
+        </p>
+
+        <p class="mb-0">
+            21 Mayıs 2026
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
